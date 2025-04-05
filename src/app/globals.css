@@ -1,0 +1,33 @@
+
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --font-interdisplay: var(--font-interdisplay), sans-serif;
+  --font-ppneuemontreal: var(--font-ppneuemontreal), sans-serif;
+
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+
+/* Apply fonts */
+body {
+  font-family: var(--font-interdisplay);
+  letter-spacing: -0.05em; /* Adjusted unit */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-ppneuemontreal);
+  letter-spacing: -0.05em; /* Adjusted unit */
+}
+
