@@ -35,7 +35,7 @@ const HowItWorks = () => {
   ];
 
   return (
-    <div className="max-w-6xl mx-auto px-4 py-12">
+    <div className="max-w-6xl mx-auto px-4 py-12 " id="how-it-works">
       <h1 className="text-4xl font-bold text-center mb-12">How it works</h1>
       
       <div className="flex flex-col space-y-6">

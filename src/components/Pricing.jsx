@@ -5,7 +5,7 @@ import bcheck from '../assets/bcheck.svg'
 const Pricing = () => {
   return (
     // {/* Pricing Section */}
-    <section className="py-12 px-4 sm:py-16">
+    <section className="py-12 px-4 sm:py-16" id="pricing">
     <div className="max-w-5xl mx-auto text-center mb-12 sm:mb-16">
       <h2 className="text-2xl sm:text-3xl font-bold mb-4">Simple, Transparent Pricing</h2>
       <p className="text-gray-600">
