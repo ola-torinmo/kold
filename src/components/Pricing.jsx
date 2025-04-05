@@ -15,8 +15,8 @@ const Pricing = () => {
 
     <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
       {/* Starter Plan */}
-      <div className="border border-[#E0E8E3] rounded-[22.5px] p-6">
-        <div className="mb-4 border border-[#E0E8E3] rounded-[10.5px] p-3">
+      <div className="border border-[#E0E8E3] rounded-[22.5px] p-[14px]">
+        <div className="mb-4 border border-[#E0E8E3] rounded-[10.5px] p-[14px]">
           <h3 className="font-medium">Starter Plan</h3>
           <div className="mt-4 mb-6">
             <span className="text-3xl font-bold">$799</span>
@@ -51,8 +51,8 @@ const Pricing = () => {
       </div>
 
       {/* Growth Plan */}
-      <div className="border border-[#007BFF] rounded-[22.5px] p-6  bg-white">
-        <div className="mb-4 border border-white bg-[#F5F9FF] rounded-[10.5px] p-3">
+      <div className="border border-[#007BFF] rounded-[22.5px] p-[14px]  bg-white">
+        <div className="mb-4 border border-white bg-[#F5F9FF] rounded-[10.5px] p-[14px]">
           <h3 className="font-medium">Growth Plan</h3>
           <div className="mt-4 mb-6">
             <span className="text-3xl font-bold">$1,499</span>
@@ -103,8 +103,8 @@ const Pricing = () => {
       </div>
 
       {/* Authority Plan */}
-      <div className="border border-[#E0E8E3] rounded-[22.5px] p-6 h-[769px]">
-        <div className="mb-4 border border-[#E0E8E3] rounded-[10.5px] p-3">
+      <div className="border border-[#E0E8E3] rounded-[22.5px] p-[14px] h-[769px]">
+        <div className="mb-4 border border-[#E0E8E3] rounded-[10.5px] p-[14px]">
           <h3 className="font-medium">Authority Plan</h3>
           <div className="mt-4 mb-6">
             <span className="text-3xl font-bold">$2,499</span>

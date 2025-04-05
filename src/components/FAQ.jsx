@@ -32,22 +32,22 @@ const FAQ = () => {
            { 
              id: 3, 
              question: "What industries do you specialize in?", 
-             answer: "We specialize in B2B services including SaaS, professional services, consulting, and tech solutions."
+             answer: "We primarily work with B2B brands, SaaS companies, and service-based businesses looking to generate leads through LinkedIn."
            },
            { 
              id: 4, 
              question: "Do you work with individual LinkedIn creators?", 
-             answer: "Yes, we work with individual executives and business owners to build their personal brand and generate leads."
+             answer: "Yes! Our Growth and Authority plans work great for founders, consultants, and executives who want to build their personal brand."
            },
            { 
              id: 5, 
              question: "What's included in my content package?", 
-             answer: "Content includes customized posts, articles, engagement comments, and direct messaging sequences."
+             answer: "Each lan includes a set nember of LinkedIn posts, engagement, profile optimization, and lead generation services. See our pricing plans for full details."
            },
            { 
             id: 6, 
             question: "Can I upgrade or cancel anytime?", 
-            answer: "Content includes customized posts, articles, engagement comments, and direct messaging sequences."
+            answer: "Yes!, We offer month-to-month plans with no long-term contracts. You can upgrade, downgrade or cancel anytime."
           }
 
          ].map((faq) => (
@@ -60,7 +60,7 @@ const FAQ = () => {
                <span>{faqOpen[faq.id] ? '−' : '+'}</span>
              </button>
              {faqOpen[faq.id] && (
-               <p className="mt-2 text-gray-600">{faq.answer}</p>
+               <p className="mt-2 text-xs text-gray-500">{faq.answer}</p>
              )}
            </div>
          ))}

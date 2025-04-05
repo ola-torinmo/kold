@@ -13,7 +13,7 @@ const Testimonials = () => {
 
      <div className="grid grid-cols-1 md:grid-cols-2 -space-x-1 max-w-5xl mx-auto">
        {/* Testimonial 1 */}
-       <div className="bg-white rounded-lg p-6 drop-shadow-[0_1px_4px_rgba(0,0,0,0.15)] flex-1 border border-gray-100">
+       <div className="bg-white rounded-lg p-6 shadow-sm flex-1 border border-gray-100">
          <div className="flex items-center mb-4">
            <div className="w-12 h-12 r mr-3"><Image src={green} alt='green'/></div>
            <div>
@@ -27,7 +27,7 @@ const Testimonials = () => {
        </div>
 
        {/* Testimonial 2 */}
-       <div className="bg-white rounded-lg p-6 drop-shadow-[0_1px_4px_rgba(0,0,0,0.15)] flex-1 border border-gray-100 relative">
+       <div className="bg-white rounded-lg p-6 shadow-sm flex-1 border border-gray-100 relative">
          <div className="flex items-center mb-4">
          <div className="w-12 h-12 r mr-3"><Image src={raji} alt='raji'/></div>
            <div>

@@ -19,15 +19,32 @@
   }
 }
 
+@font-face {
+  font-family: 'InterDisplay';
+  src: url('/public/fonts/InterDisplay-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PPNeueMontreal';
+  src: url('/public/fonts/ppneuemontreal-medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+
 
 /* Apply fonts */
 body {
-  font-family: var(--font-interdisplay);
+  font-family: InterDisplay ;
   letter-spacing: -0.05em; /* Adjusted unit */
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: var(--font-ppneuemontreal);
+  font-family: PPNeueMontreal;
   letter-spacing: -0.05em; /* Adjusted unit */
 }
 

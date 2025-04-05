@@ -30,24 +30,36 @@ const Hero = () => {
          </div>
   
          {/* Testimonials with Dashboard Preview */}
-         <div className="grid grid-cols-1 md:grid-cols-3  mb-16  flex items-end mt-[35px]">
-           {/* Testimonial 1 */}
-           <div className=" ">
-             <Image src={tes1} alt="Testimonial" className="rounded-md md:w-[366px] md:h-[400px] " />
-           </div>
-  
-           {/* Dashboard Preview */}
-           <div className="col-span-1 md:col-span-1 relative order-first md:order-none mb-2 md:mb-0">
-             <div className="md:w-[393px] md:h-[458px]">
-               <Image src={dash} alt="Dashboard Preview" className="rounded-lg" />
-             </div>
-           </div>
-  
-           {/* Testimonial 2 */}
-           <div className="md:ml-2  ">
-             <Image src={tes2} alt="Testimonial2" className="rounded-md md:w-[366px] md:h-[400px] md:ml-12 " />
-           </div>
-         </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 mb-16 flex items-end mt-[35px]">
+            {/* Testimonial 1 - rounded top-left and bottom-left corners */}
+            <div className="">
+              <Image 
+                src={tes1} 
+                alt="Testimonial" 
+                className="rounded-tl-lg rounded-bl-lg md:w-[366px] md:h-[400px]" 
+              />
+            </div>
+
+            {/* Dashboard Preview */}
+            <div className="col-span-1 md:col-span-1 relative order-first md:order-none mb-2 md:mb-0">
+              <div className="md:w-[393px] md:h-[458px]">
+                <Image 
+                  src={dash} 
+                  alt="Dashboard Preview" 
+                  className="rounded-t-lg" 
+                />
+              </div>
+            </div>
+
+            {/* Testimonial 2 - rounded top-right and bottom-right corners */}
+            <div className="md:ml-2">
+              <Image 
+                src={tes2} 
+                alt="Testimonial2" 
+                className="rounded-tr-lg rounded-br-lg md:w-[366px] md:h-[400px] md:ml-12" 
+              />
+            </div>
+          </div>
   
          <p className='justify-center items-center my-10 text-[#5D5D5DCC]'>Trusted By</p>
   
