@@ -36,7 +36,7 @@ const HowItWorks = () => {
 
   return (
     <div className="max-w-6xl mx-auto px-4 py-12 " id="how-it-works">
-      <h1 className="text-4xl font-bold text-center mb-12">How it works</h1>
+      <h1 className="text-[44px] font-medium text-center mb-12">How it works</h1>
       
       <div className="flex flex-col space-y-6">
         {/* Top row - container is wider/longer */}

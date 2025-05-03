@@ -8,12 +8,12 @@ const Hero2 = () => {
        <section className="max-w-5xl mx-auto px-4 py-8 sm:py-12 text-center">
        <div className="flex justify-center mb-2">
          {/* Profile pictures */}
-         <div className="mb-[21px]">
+         <div className="mb-[17.5px]">
            <div className="w-[250px] h-[44px] "> <Image src={founder} alt='founders img' priority /> </div>
          </div>
        </div>
-       <h1 className="text-3xl sm:text-4xl font-bold mb-4">Our work: creative solutions that drive results</h1>
-       <p className="text-gray-600 mb-8 max-w-2xl mx-auto">
+       <h1 className="text-[56px] sm:text-[52px] font-medium ">Our work: creative solutions that drive results</h1>
+       <p className="text-[#5D5D5DCC] opacity-80  mb-8 max-w-2xl mx-auto">
        Discover how our tailored strategies have helped businesses transform challenges into opportunities for growth and success.
        </p>
        <div className="flex flex-col sm:flex-row justify-center gap-4 mb-[63px]">

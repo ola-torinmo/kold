@@ -13,9 +13,9 @@ const FAQ = () => {
     };
   return (
     //  {/* FAQ Section */}
-     <section className="py-12 px-4 sm:py-16" id="faqs">
+     <section className="py-12 px-4" id="faqs">
      <div className="max-w-3xl mx-auto">
-       <h2 className="text-2xl sm:text-3xl font-bold mb-8 text-center">Frequently Asked Questions</h2>
+       <h2 className="text-2xl sm:text-[44px] font-medium mb-8 text-center">Frequently Asked Questions</h2>
        
        <div className="space-y-4">
          {[

@@ -28,9 +28,9 @@
 }
 
 @font-face {
-  font-family: 'PPNeueMontreal';
+  font-family: 'NeueMontreal';
   src: url('/public/fonts/ppneuemontreal-medium.otf') format('opentype');
-  font-weight: 500;
+  font-weight: 600;
   font-style: normal;
   font-display: swap;
 }
@@ -39,12 +39,19 @@
 
 /* Apply fonts */
 body {
-  font-family: InterDisplay ;
-  letter-spacing: -0.05em; /* Adjusted unit */
+  font-family: InterDisplay, sans-serif;
+  letter-spacing: -1px;
+  
+   /* Adjusted unit */
+}
+p{
+  color: #5D5D5DCC; /* a gray color with alpha */
+  opacity: 0.8;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: PPNeueMontreal;
-  letter-spacing: -0.05em; /* Adjusted unit */
+h1, h2, h3, h4, h5, h6,button,Link {
+  font-family: NeueMontreal, sans-serif;
+   letter-spacing: -1px; 
+
 }
 

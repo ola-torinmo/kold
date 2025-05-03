@@ -84,17 +84,17 @@ const PortfolioFilter = () => {
   );
 
   return (
-    <div className="max-w-6xl mx-auto px-4 ">
+    <div className="max-w-6xl mx-auto  ">
       {/* Filter Tabs */}
-      <div className="flex justify-center mb-12">
+      <div className="flex justify-center mb-12 ">
         <div className="inline-flex bg-gray-100 rounded-lg p-1">
           {filters.map((filter) => (
             <button
               key={filter}
               className={`px-4 py-2 rounded-lg text-sm ${
                 activeFilter === filter 
-                  ? 'bg-blue-400 text-white' 
-                  : 'text-gray-500'
+                  ? 'bg-[#60A5FA] text-white' 
+                  : 'text-[#5D5D5DCC] opacity-80'
               }`}
               onClick={() => setActiveFilter(filter)}
             >

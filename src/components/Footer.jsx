@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import x from '../assets/x.svg';
+import copy from '../assets/copyright.svg'
 import linkedinIcon from '../assets/in.svg';
 
 const Footer = () => {
@@ -24,7 +25,9 @@ const Footer = () => {
       </div>
       
       <div className="flex items-center justify-center text-sm text-gray-600">
-        <span>© 2025 KoldOutreach. All Rights Reserved</span>
+        <p className='flex '>
+          <span className='mt-1 mr-2'><Image src={copy}/></span>
+           2025 KoldOutreach. All Rights Reserved</p>
       </div>
     </footer>
   );
