@@ -25,9 +25,17 @@ const Pricing = () => {
           </div>
           <span className='text-[#5D5D5DCC] text-[14px] opacity-80 '>For those getting started with LinkedIn growth and content creation</span>
           
-          <button className="w-full py-2 border border-blue-600 text-blue-600 rounded-md hover:bg-blue-50 mt-[14px]">
+          {/* <button className="w-full py-2 border border-blue-600 text-blue-600 rounded-md hover:bg-blue-50 mt-[14px]">
             Get Started
-          </button>
+          </button> */}
+          <a 
+            href="https://calendly.com/micheal-koldoutreach/30min"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-full py-2 border border-blue-600 text-blue-600 rounded-md hover:bg-blue-50 mt-[14px] text-center no-underline block"
+          >
+            Get Started
+          </a>
         </div>
         <div className="space-y-3 mt-6 mb-6">
             <div className='flex-shrink-0'>
@@ -110,9 +118,13 @@ const Pricing = () => {
 
           </div>
           
-          <button className="w-full py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 mt-[14px]">
+          <a 
+            href="https://calendly.com/micheal-koldoutreach/30min"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-full py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 mt-[14px] text-center no-underline block">
             Get Started
-          </button>
+          </a>
         </div>
         <div className="space-y-3 mt-6">
             <div className='flex-shrink-0'>
@@ -167,9 +179,13 @@ const Pricing = () => {
             <span className="text-[#5D5D5DCC] opacity-80">/month</span>
           </div>
           <span className='text-[#5D5D5DCC] text-[14px] opacity-80 '>For brands that want to generate leads and book meetings at scale</span>
-          <button className="w-full py-2 border border-blue-600 text-blue-600 rounded-md hover:bg-blue-50 mt-[14px]"  >
+          <a 
+            href="https://calendly.com/micheal-koldoutreach/30min"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-full py-2 border border-blue-600 text-blue-600 rounded-md hover:bg-blue-50 mt-[14px] text-center no-underline block"  >
             Get Started
-          </button>
+          </a>
         </div>
         <div className="space-y-3 mt-6 ">
             <div className='flex-shrink-0'>
