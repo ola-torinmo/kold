@@ -16,7 +16,7 @@ const Growth = () => {
       </div>
 
       {/* Features Grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 max-w-5xl mb-16 mx-auto justify-items-center">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 max-w-5xl md:mb-6 mb-16 mx-auto justify-items-center">
         <div className="w-[250px] h-[250px] px-6 py-12 bg-gray-50 rounded-lg text-center">
           <div className="flex items-center justify-center mx-auto mb-4">
             <Image src={consult} alt="Consulting" width={32} height={32} />

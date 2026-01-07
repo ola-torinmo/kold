@@ -18,7 +18,7 @@ const Hero = () => {
              <div className="w-[250px] h-[44px] "> <Image src={founder} alt='founders img'/> </div>
            </div>
          </div>
-         <h1 className="text-[56px] sm:text-[56px] font-medium mb-">Turn LinkedIn into your #1 Sales Channel</h1>
+         <h1 className="text-[36px] sm:text-[56px] font-medium mb-">Turn LinkedIn into your #1 Sales Channel</h1>
          <p className="text-[#5D5D5DCC] opacity-80  mb-8 max-w-2xl mx-auto">
            We help B2B brands grow their authority, engage with their audience, and boost consistent sales meetings. 
            All through advanced personalized LinkedIn marketing.
@@ -60,14 +60,16 @@ const Hero = () => {
               />
             </div>
           </div>
+
   
-         <p className='justify-center items-center my-10 text-[#5D5D5DCC]'>Trusted By</p>
+         <p className='mx-auto my-10 text-[#5D5D5DCC]'>Trusted By</p>
   
          {/* Partner Logos */}
          <div className="flex md:flex-row flex-col items-baseline  justify-center items-center gap-12 ">
            <div className='pr-10 border-r py-4 border-[#E0E8E3]'><Image src={logo1} alt='logo1' className='h-[40px] w-[150px] '/></div>
            <div className='pr-10 border-r border-[#E0E8E3]'><Image src={logo2} alt='logo1' className='h-[74px] w-[74px] '/></div>
-           <Image src={logo3} alt='logo1' className='h-[50px] w-[49px]'/>
+           <div className='pr-5 md:pr-0 '><Image src={logo3} alt='logo1' className='h-[50px] w-[49px]'/></div>
+           
          </div>
        </section>
     )

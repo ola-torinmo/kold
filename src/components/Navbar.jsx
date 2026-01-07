@@ -28,7 +28,17 @@ const Navbar = () => {
       <a href="#faqs" className="text-gray-600 hover:text-gray-900">FAQs</a>
     </div>
     
-    <button className="hidden md:block px-4 py-2 text-blue-600 border border-blue-600 rounded-md hover:bg-blue-50">
+    {/* <button className="hidden md:block px-4 py-2 text-blue-600 border border-blue-600 rounded-md hover:bg-blue-50">
+      Get Started
+    </button> */}
+    <button 
+      onClick={() => {
+        document.getElementById('pricing')?.scrollIntoView({ 
+          behavior: 'smooth' 
+        });
+      }}
+      className="hidden md:block px-4 py-2 text-blue-600 border border-blue-600 rounded-md hover:bg-blue-50"
+    >
       Get Started
     </button>
     
@@ -38,7 +48,13 @@ const Navbar = () => {
         <a href="#how-it-works" className="text-gray-600 hover:text-gray-900">How it works</a>
         <a href="#pricing" className="text-gray-600 hover:text-gray-900">Pricing</a>
         <a href="#faqs" className="text-gray-600 hover:text-gray-900">FAQs</a>
-        <button className="w-full px-4 py-2 text-blue-600 border border-blue-600 rounded-md hover:bg-blue-50">
+        <button
+          onClick={() => {
+          document.getElementById('pricing')?.scrollIntoView({ 
+            behavior: 'smooth' 
+          });
+        }}
+        className="w-full px-4 py-2 text-blue-600 border border-blue-600 rounded-md hover:bg-blue-50">
           Get Started
         </button>
       </div>

@@ -5,7 +5,7 @@ import check from '../assets/check.svg'
 
 const WhatYouGet = () => {
   return (
-    <div className="px-4 md:px-8 my-12">
+    <div className="px-4 md:px-8 md:my-12 mb-8">
     <section className="bg-black rounded-[48px] text-white py-12 px-4 h-full sm:py-16">
       <div className="max-w-5xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12 items-center mt-6">
