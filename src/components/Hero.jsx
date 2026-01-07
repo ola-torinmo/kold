@@ -23,11 +23,21 @@ const Hero = () => {
            We help B2B brands grow their authority, engage with their audience, and boost consistent sales meetings. 
            All through advanced personalized LinkedIn marketing.
          </p>
-         <div className="flex flex-col sm:flex-row justify-center gap-4 mb-[63px]">
+         {/* <div className="flex flex-col sm:flex-row justify-center gap-4 mb-[63px]">
            <button className="px-6 py-3 bg-blue-600 text-white rounded-md hover:bg-blue-700 w-full sm:w-auto">
            Book a Free Strategy Session
            </button>
-         </div>
+         </div> */}
+         <div className="flex flex-col sm:flex-row justify-center gap-4 mb-[63px]">
+            <a 
+              href="https://calendly.com/micheal-koldoutreach/30min"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-6 py-3 bg-blue-600 text-white rounded-md hover:bg-blue-700 w-full sm:w-auto text-center no-underline"
+            >
+              Book a Free Strategy Session
+            </a>
+          </div>
   
          {/* Testimonials with Dashboard Preview */}
           <div className="grid grid-cols-1 md:grid-cols-3 mb-16 flex items-end mt-[35px]">
