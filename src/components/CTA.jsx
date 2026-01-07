@@ -43,9 +43,12 @@ const CTA = () => {
           </div>
         </div>
         
-        <button className="border border-white text-white hover:bg-blue-40 px-6 py-3 rounded-md font-medium transition-colors duration-300 text-sm md:text-base">
+        <a 
+            href="https://calendly.com/micheal-koldoutreach/30min"
+            target="_blank"
+            rel="noopener noreferrer" className="border border-white text-white hover:bg-blue-40 px-6 py-3 rounded-md font-medium transition-colors duration-300 text-sm md:text-base text-center no-underline block">
           Book a Free Strategy Session
-        </button>
+        </a>
       </div>
     </div>
     </div>

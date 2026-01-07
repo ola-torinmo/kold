@@ -17,9 +17,12 @@ const Hero2 = () => {
        Discover how our tailored strategies have helped businesses transform challenges into opportunities for growth and success.
        </p>
        <div className="flex flex-col sm:flex-row justify-center gap-4 mb-[63px]">
-         <button className="px-6 py-3 bg-blue-600 text-white rounded-md hover:bg-blue-700 w-full sm:w-auto">
+          <a 
+              href="https://calendly.com/micheal-koldoutreach/30min"
+              target="_blank"
+              rel="noopener noreferrer"className="px-6 py-3 bg-blue-600 text-white rounded-md hover:bg-blue-700 w-full sm:w-auto text-center no-underline">
          Book a Free Strategy Session
-         </button>
+         </a>
        </div>
 
      </section>
